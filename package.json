@@ -1,0 +1,13 @@
+{
+ "name": "JS-testing-learn",
+ "version": "1.0.0",
+ "main": "index.js",
+ "license": "MIT",
+ "scripts": {
+  "test-fundamentals": "node --require ./setup-global.js ./fundamentals/assertion-lib.js",
+	"test-fundamentals-jest": "jest"
+ },
+ "devDependencies": {
+  "jest": "^27.2.5"
+ }
+}
